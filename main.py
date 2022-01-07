@@ -17,3 +17,8 @@ if len(profile_names) != 0:
             wifi_profile["ssid"] = name
             profile_info_pass = subprocess.run(["netsh", "wlan", "show", "profile", name, "key=clear"], capture_output = True).stdout.decode()
             password = re.search("Key Content            : (.*)\r", profile_info_pass)
+            if password == None:
+                wifi_profile["password"] = None
+            else:
+                wifi_profile["password"] = password[1]
+            wifi_list.append(wifi_profile)
