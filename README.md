@@ -6,8 +6,19 @@ Programi *Wifi-Password-Stealer* nuk është krijuar për të promovuar në asnj
 * Ky program është krijuar për të ekzekutuar në një makinë Windows.
 * Laptopi i synuar duhet të ketë të instaluar paraprakisht gjuhën programuese Python.
 
-![](../pictures/email.jpg)
+![github-small](/pictures/email.jpg)
 
 ## Instalimi
+Përdorim komandat e mëposhtme për instalim:
 
+```
+pip install secure-smtplib
+pip install subprocess32
 
+```
+## Përdorimi
+* Plotësoni _**Emrin** nga i cili do të dërgohet email dhe **Email** se kujt do ti dërgohet_
+![github-small](/pictures/emailmessage.jpg)
+
+* Plotësoni _**Email** nga i cili do të dërgohet email dhe **Password** i account-it të email-it prej të cilit do të dërgohet_
+![github-small](/pictures/emaillogin.jpg)
