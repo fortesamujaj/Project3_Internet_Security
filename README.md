@@ -16,9 +16,28 @@ pip install secure-smtplib
 pip install subprocess32
 
 ```
+
 ## Përdorimi
 * Plotësoni _**Emrin** nga i cili do të dërgohet email dhe **Email** se kujt do ti dërgohet_
 ![github-small](/pictures/emailmessage.jpg)
 
 * Plotësoni _**Email** nga i cili do të dërgohet email dhe **Password** i account-it të email-it prej të cilit do të dërgohet_
 ![github-small](/pictures/emaillogin.jpg)
+
+* Krijimi i EXE përmes komandave:
+
+```
+pip install pyinstaller
+pyinstaller main.py
+
+```
+* Klikojmë dy herë në main.exe
+
+* Në 5-10 seconda, të gjitha të fjalëkalimet dërgohen në email-in tuaj.
+
+> Shënim: Nëse dërgohet main.exe në një kompjuter tjetër dhe ky fajll klikohet 2 herë atëherë do të arrihet vjedhja e të gjithë fjalëkalimeve të WiFi-së të ruajtur në atë kompjuter.
+
+## Referenca
+
+[^1]: Sqarimi se si të realizohet projekti u mundësua nga: [David Bombal](https://www.youtube.com/watch?v=SzYKzAHsdMg&t=238s).
+[^2]: Referencimi kryesor i projektit është: [Windows10-WiFi-Email](https://github.com/davidbombal/red-python-scripts/blob/main/windows10-wifi-email.py).
