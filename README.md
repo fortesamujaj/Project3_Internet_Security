@@ -3,8 +3,9 @@ Programi *Wifi-Password-Stealer* nuk është krijuar për të promovuar në asnj
 
 **_Shembull:_**  Të imagjinojmë një situatë ku ne harrojmë fjalëkalimin e WiFi-së dhe një i afërm i yni na e kërkon atë. Atëherë e vetmja gjë që duhet të bëjmë është të ekzekutojmë kodin e Python, ose të klikojmë dy herë në main.exe (në rast se e shndërrojmë kodin e Python në një fajll të ekzekutueshëm).
 
-* Ky program është krijuar për të ekzekutuar në një makinë Windows.
+* Ky program është krijuar për tu ekzekutuar në një makinë Windows.
 * Laptopi i synuar duhet të ketë të instaluar paraprakisht gjuhën programuese Python.
+* Email-i që përdoret (në rast se është Gmail) duhet të ketë Allow less secure apps: **ON**.
 
 ![github-small](/pictures/email.jpg)
 
@@ -16,24 +17,23 @@ pip install secure-smtplib
 pip install subprocess32
 
 ```
-
 ## Përdorimi
-* Plotësoni _**Emrin** nga i cili do të dërgohet email dhe **Email** se kujt do ti dërgohet_
+* Plotësoni _**Emrin** nga i cili do të dërgohet email dhe **Email** se kujt do ti dërgohet_.
 ![github-small](/pictures/emailmessage.jpg)
 
-* Plotësoni _**Email** nga i cili do të dërgohet email dhe **Password** i account-it të email-it prej të cilit do të dërgohet_
+* Plotësoni _**Email** nga i cili do të dërgohet email dhe **Password** i account-it të email-it prej të cilit do të dërgohet_.
 ![github-small](/pictures/emaillogin.jpg)
 
-* Krijimi i EXE përmes komandave:
+* Krijimi i **EXE** fajllit përmes komandave:
 
 ```
 pip install pyinstaller
 pyinstaller main.py
 
 ```
-* Klikojmë dy herë në main.exe
+* Klikojmë dy herë në **main.exe**.
 
-* Në 5-10 seconda, të gjitha të fjalëkalimet dërgohen në email-in tuaj.
+* Në 5-10 seconda, të gjitha të fjalëkalimet dërgohen në **email-in** tuaj.
 
 > Shënim: Nëse dërgohet main.exe në një kompjuter tjetër dhe ky fajll klikohet 2 herë atëherë do të arrihet vjedhja e të gjithë fjalëkalimeve të WiFi-së të ruajtur në atë kompjuter.
 
