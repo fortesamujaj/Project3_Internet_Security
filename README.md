@@ -39,5 +39,4 @@ pyinstaller main.py
 
 ## Referenca
 
-[^1]: Sqarimi se si të realizohet projekti u mundësua nga: [David Bombal](https://www.youtube.com/watch?v=SzYKzAHsdMg&t=238s).
-[^2]: Referencimi kryesor i projektit është: [Windows10-WiFi-Email](https://github.com/davidbombal/red-python-scripts/blob/main/windows10-wifi-email.py).
+Për informacione të metutejshme në lidhje me WiFi Password Stealing duke përdorur gjuhën programuese Python atëherë [klikoni](https://www.youtube.com/watch?v=SzYKzAHsdMg&t=238s).
